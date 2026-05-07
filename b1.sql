@@ -1,7 +1,7 @@
 -- bảng và dữ liệu đã đc tạo ở b4
 -- Đoạn mã nguồn hiện tại đang chạy trên Database
 DELIMITER //
-DROP PROCEDURE IF EXISTS CancelAppointment;
+DROP PROCEDURE CancelAppointment;
 CREATE PROCEDURE CancelAppointment(IN p_appointment_id INT)
 BEGIN
 --
